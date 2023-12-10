@@ -1,0 +1,61 @@
+import HomeIcon from "@mui/icons-material/Home"
+import ExploreIcon from "@mui/icons-material/Explore"
+import NotificationIcon from "@mui/icons-material/Notifications"
+import MessageIcon from "@mui/icons-material/Message"
+import ListIcon from "@mui/icons-material/ListAlt"
+import GroupIcon from "@mui/icons-material/Group"
+import AccountCircleIcon from "@mui/icons-material/AccountCircle"
+import VerifiedIcon from "@mui/icons-material/Verified"
+import PendingIcon from "@mui/icons-material/Pending"
+
+
+
+
+
+
+export const navigationMenu = [
+    {
+        title: "Home",
+        icon: <HomeIcon />,
+        path: "/home"
+    }, {
+        title: "Explore",
+        icon: <ExploreIcon />,
+        path: "/explore"
+    }, {
+        title: "Notification",
+        icon: <NotificationIcon />,
+        path: "/notification"
+    }, {
+        title: "Messages",
+        icon: <MessageIcon />,
+        path: "/messages"
+    }
+    , {
+        title: "Groupes",
+        icon: <GroupIcon />,
+        path: "/groupe"
+    }, {
+        title: "Lists",
+        icon: <ListIcon />,
+        path: "/list"
+    }, {
+        title: "Communities",
+        icon: <HomeIcon />,
+        path: "/communities"
+    }, {
+        title: "Verified",
+        icon: <VerifiedIcon />,
+        path: "/verified"
+    },
+    {
+        title: "Profile",
+        icon: <AccountCircleIcon />,
+        path: "/profile"
+    },
+    {
+        title: "More",
+        icon: <PendingIcon />,
+        path: "/more"
+    },
+]
