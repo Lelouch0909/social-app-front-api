@@ -2,6 +2,7 @@ import { Grid } from '@mui/material'
 import React from 'react'
 import Navigation from '../Navigation/Navigation'
 import HomeSection from '../HomeSection/HomeSection'
+import RightPart from '../RightPart/RightPart'
 
 function HomePage() {
     return (
@@ -9,10 +10,12 @@ function HomePage() {
                 <Grid item xs={0} lg={2.5} className=' lg:block w-full relative hidden '>
                    <Navigation/>
                 </Grid>
-                <Grid item xs={12} lg={6} className='hidden lg:block w-full relative '>
-                    <HomeSection></HomeSection>
+                <Grid item xs={12} lg={6} className=' px-5 lg:px-9  lg:block w-full relative '>
+                    <HomeSection/>
                     </Grid>
-                <Grid item xs={0} lg={3} className='hidden lg:block w-full relative '> <p className='text-center'> right part</p></Grid>
+                <Grid item xs={0} lg={3} className=' lg:block hidden w-full relative '> 
+                    <RightPart/>
+                </Grid>
 
             </Grid>
     )
