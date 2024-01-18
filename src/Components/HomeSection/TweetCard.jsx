@@ -88,9 +88,9 @@ function TweetCard() {
                     </div>
 
                     <div className="mt-2">
-                        <div className="cursor-pointer" >
+                        <div onClick={() => navigate('/tweet/' +3)} className="cursor-pointer" >
                             <p className='mb-2 p-0'>nice le tuto</p>
-                            <img src={imgExample} className='w-full border rounded-md border-gray-400 p-5 ' alt=""/>
+                            <img src={imgExample} className='w-full border rounded-md border-gray-400 p-5 ' alt="" />
                         </div>
                         <div className="py-5 flex flex-wrap justify-between items-center">
 
@@ -108,7 +108,7 @@ function TweetCard() {
                             </div>
 
 
-                           <div className={"space-x-3 flex items-center text-gray-600"}>
+                            <div className={"space-x-3 flex items-center text-gray-600"}>
                                 <BarChartIcon className='cursor-pointer' onClick={handleOpenReplyModel} />
                                 <p>430</p>
                             </div>

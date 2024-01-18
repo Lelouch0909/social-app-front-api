@@ -5,6 +5,10 @@ code{
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Code Pro', monospace;}
 
+.hideScrollBar::-webkit-scrollbar{
+  display: none
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
