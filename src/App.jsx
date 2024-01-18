@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import { Container, Grid } from '@mui/material';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './Components/HomePage/HomePage';
 import Authentication from './Components/Authentication/Authentication';
